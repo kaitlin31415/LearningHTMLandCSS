@@ -1,7 +1,11 @@
 
 Entry Date: 25 - 07 - 2018
-Description of Work:
+
 Files Created: Headers.html, semantics.html
 Comments: So far HTML just looks like formatting language, in the headers.html I wend through different ways
           of formatting so I can see exactly what I'm trying to do. Now in the semantics.html I'm trying to flesh
           out those
+
+Entry Date: 28 - 07 - 2018
+Files Created: lists.html, links.html
+Comments: Finished the sematics.html file, now I know how to make my text look real nice! Lists are fun.
