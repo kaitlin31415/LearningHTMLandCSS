@@ -1,0 +1,142 @@
+<html>
+  <head>
+    Forms
+  </head>
+  <body>
+
+    <!--This File has Multiple Example Forms -->
+    <h1>Forms</h1>
+    <form action="http://www.example.com/subscribe.php" method="get">
+      <p>This is the Space Where the form Controls Appear</p>
+
+    </form>
+    <form action="http://www.example.com/login.php">
+        <p>Username: <input type="text" name="username" size="15" maxlength="30" /> </p>
+
+        <p>Password: <input type="password" name="password" size="15" maxlength="30" /> </p>
+    </form>
+
+    <form action="http://www.example.com/comments.php">
+        <p> Any Comments?</p>
+        <textarea name="Comments" cols="50" rows="10"> Enter the text you want!</textarea>
+    </form>
+    <h2>Buttons</h2>
+    <form action="http://www.example.com/profile.php">
+        <p> Select one of the options: </p>
+        <input type="radio" name="varibleSet" value="Option1" checked="checked" />Option 1
+        <input type="radio" name="varibleSet" value="Option2" />Option 2
+        <input type="radio" name="varibleSet" value="Option3" />Option 3
+
+    </form>
+
+    <form action="http://www.example.com/profile.php">
+      <p>Select as many options as you wantL </p>
+      <input type="checkbox" name="varibleSet" value="Option1" checked="checked" />Option 1
+      <input type="checkbox" name="varibleSet" value="Option2" />Option 2
+      <input type="checkbox" name="varibleSet" value="Option3" />Option 3
+    </form>
+
+    <h2>Dropdown Lists </h2>
+    <form action="http://www.example.com/profile.php">
+        <p>Choose one option:</p>
+        <select name="numbers">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+
+        </select>
+        <br />
+        <p>Choose Multiple Options:</p>
+        <select name="numbers1" size="3" multiple="multiple">
+          <option value="1">First Option</option>
+          <option value="2">Second Option</option>
+          <option value="3">Third Option</option>
+          <option value="4">Fourth Option</option>
+          <option value="5">Fifth Option</option>
+          <option value="6">Sixth Option</option>
+        </select>
+
+
+    </form>
+
+    <h2>File Input</h2>
+    <form action="http://www.example.com/upload.php" method="post">
+      <p>Upload a File: </p>
+      <input type="file" name="user-file" /><br />
+      <input type="submit" value="Upload" />
+    </form>
+
+    <form action="http://www.example.com/subscribe.php">
+      <p>Subscribe to Mailing List: </p>
+      <input type="text" name="email" />
+      <input type="submit" name="subscribe" value="Subscribe" />
+    </form>
+
+    <form action="http://www.example.com/subscribe.php">
+      <p>Subscribe to Mailing List: </p>
+      <input type="text" name="email" />
+      <input type="image" src="images/subscribe.jpg" width="100" height="20" />
+    </form>
+
+    <h2>Hidden Controls </h2>
+
+    <form action="http://www.example.com/add.php">
+			<button><img src="images/add.gif" alt="add" width="10" height="10"> Add</button>
+			<input type="hidden" name="bookmark" value="lyrics">
+		</form>
+
+    <h2>Labeling Around Controls</h2>
+    <label>Age: <input type="text" name="age" /></label>
+    <br />
+    Gender:
+    <input id="female" type="radio" name="gender" value="f">
+    <label for="female">Female </label>
+    <input id="male" type="radio" name="gender" value="m">
+    <label for="male">Male </label>
+
+    <h2>Grouping</h2>
+    <form action="http://www.example.com/subscribe.php">
+      <fieldset>
+        <legend> Contact</legend>
+        <label>Email:<br />
+          <input type="email" name="email" />
+        </label> <br />
+        <label>Cell:<br />
+          <input type="text" name="cell" />
+        </label> <br />
+        <input type="submit" value="Submit" />
+
+      </fieldset>
+    </form>
+    <h2>Validation</h2>
+    <form action="http://www.example.com/login/" method="post">
+      <label for="username"> Username: </label>
+      <input type="text" name="username" required="required" />
+      <br />
+      <label for="password"> Password: </label>
+      <input type="password" name="password" required="required" />
+      <input type="submit" value="Submit" />
+
+    </form>
+    <h2> Date </h2>
+    <form action="http://www.example.com/bookings" method="post">
+      <label for="date">Date:</label>
+      <input type="date" name="depart" />
+      <input type="submit" value="Submit" />
+    </form>
+
+    <h2>Search</h2>
+    <form action="http://www.example.com/search.php">
+      <p>Search:</p>
+      <input type="search" name="search" placeholder="Keyword" />
+      <input type="submit" value="Search" />
+    </form>
+
+
+    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+
+  </body>
+
+
+
+</html>
