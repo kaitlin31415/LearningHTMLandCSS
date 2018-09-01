@@ -1,0 +1,22 @@
+/*Colours For Text*/
+body{
+  font-family: Arial, Veranda, sans-serif;
+  background-color: rgb(200, 200, 200);
+
+}
+
+h1{
+  color: DarkCyan;
+  background-color: #ee3e80;
+}
+
+h2{
+  color: #ee3e80;
+  background-color: DarkCyan;
+}
+p{
+  color: rgb(100, 100, 90);
+}
+#fancy{
+  font-family: fantasy;
+}
