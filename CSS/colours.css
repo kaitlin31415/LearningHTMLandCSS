@@ -1,7 +1,7 @@
 /*Colours For Text*/
 body{
   font-family: Arial, Veranda, sans-serif;
-  background-color: rgb(200, 200, 200);
+  background-color: rgba(200, 200, 200,0.5);
 
 }
 
@@ -16,6 +16,8 @@ h2{
 }
 p{
   color: rgb(100, 100, 90);
+
+  background-color: white;
 }
 #fancy{
   font-family: fantasy;
